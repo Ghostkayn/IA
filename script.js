@@ -117,7 +117,7 @@ const perguntas = [
 let atual = 0;
 let perguntaAtual;
 
-function mostraAlternativa() {
+function mostraAlternativa() { 
     peguntaAtual = Alternativa[atual];
     caixaAlternativa.textContent = pergunta,enunciado;  
     mostraAlternativas();
@@ -127,6 +127,10 @@ function mostraAlternativa(){
     for(const alternativa of perguntaAtual.alternativa){
     const botaAlternativas = document.createElement("button);
     botaoAlternativa.textContent = alternativa;
+    BotaoAlternativas.addEventListener("click", function(){
+       atual++;
+       mostraPergunta();
+    })
     caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
