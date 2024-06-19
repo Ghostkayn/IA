@@ -7,6 +7,15 @@ const textoReultado = ocumente.querySelector(".texto-resultado");
 const perguntas = [
     enunciado: "Pergunta 1",
     alternativas: [
+    {
+        texto: "isso é assustador",
+        afirmativa: "afirmação"
+    },
+    {
+        texto: "isso é assustador",
+        afirmativa: "afirmativa"
+    }
+       "isso é assustador"
 "Alternativa 1",
 "Alternativa 2"
 ]
@@ -15,6 +24,14 @@ const perguntas = [
     {
         enunciado: "Pergunta 1",
         alternativas: [
+             {
+        texto: "isso é assustador",
+        afirmativa: "afirmação"
+    },
+    {
+        texto: "isso é assustador",
+        afirmativa: "afirmativa"
+    }
             "Alternativa 1",
             "Alternativa 2"
         ]
@@ -22,6 +39,14 @@ const perguntas = [
     {
         enunciado: "Pergunta 2",
         alternativas: [
+           {
+        texto: "isso é assustador",
+        afirmativa: "afirmação"
+    },
+    {
+        texto: "isso é assustador",
+        afirmativa: "afirmativa"
+    }
             "Alternativa 1",
             "Alternativa 2"
         ]
@@ -29,6 +54,14 @@ const perguntas = [
      {
         enunciado: "Pergunta 2",
         alternativas: [
+          {
+        texto: "isso é assustador",
+        afirmativa: "afirmação"
+    },
+    {
+        texto: "isso é assustador",
+        afirmativa: "afirmativa"
+    }
             "Alternativa 1",
             "Alternativa 2"
         ]
@@ -36,6 +69,14 @@ const perguntas = [
      {
         enunciado: "Pergunta 2",
         alternativas: [
+          {
+        texto: "isso é assustador",
+        afirmativa: "afirmação"
+    },
+    {
+        texto: "isso é assustador",
+        afirmativa: "afirmativa"
+    }
             "Alternativa 1",
             "Alternativa 2"
         ]
@@ -43,6 +84,14 @@ const perguntas = [
      {
         enunciado: "Pergunta 2",
         alternativas: [
+          {
+        texto: "isso é assustador",
+        afirmativa: "afirmação"
+    },
+    {
+        texto: "isso é assustador",
+        afirmativa: "afirmativa"
+    }
             "Alternativa 1",
             "Alternativa 2"
         ]
@@ -50,6 +99,14 @@ const perguntas = [
      {
         enunciado: "PergunTa 2",
         alternativas: [
+          {
+        texto: "isso é assustador",
+        afirmativa: "afirmação"
+    },
+    {
+        texto: "isso é assustador",
+        afirmativa: "afirmativa"
+    }
             "Alternativa 1",
             "Alternativa 2"
         ]
@@ -75,4 +132,3 @@ function mostraAlternativa(){
 }
 
  mostraPergunta();
- 
