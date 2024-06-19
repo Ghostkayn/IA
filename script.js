@@ -75,3 +75,4 @@ function mostraAlternativa(){
 }
 
  mostraPergunta();
+ 

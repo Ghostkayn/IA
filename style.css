@@ -21,4 +21,9 @@ BODY{
     WIDTH: 90%;
     MAX-WIDTH: 600PX;
     TEXT-ALIGN: CENTER;
+    padding: 20xp;
+}
+
+h1{
+    color: var(--COR-DESTAQUE--);
 }
