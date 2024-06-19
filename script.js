@@ -119,8 +119,13 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraAlternativa() { 
+  if(atual >= pergunta.length){
+  mostraResultado();
+  return;
+  }""
     peguntaAtual = Alternativa[atual];
-    caixaAlternativa.textContent = pergunta,enunciado;  
+    caixaAlternativa.textContent = pergunta,enunciado; 
+    caixaAlternativa.textoContent =  "";
     mostraAlternativas();
 }
 
@@ -138,5 +143,11 @@ funtion respostaSelecionada(opcaoSelecionada){
   historiaFfinal = afirmacoes;
   atual++;
   mostraPergunta();
+} 
+
+function mostraResultado(){
+ caixaPerguntas.textoContent = "Em 2049..."
+ textoResultado.textoContent = historiafinal;
+ caixaAlternativa.textoContent = ""; 
 }
  mostraPergunta();
