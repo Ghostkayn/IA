@@ -87,7 +87,7 @@ const perguntas = [
         alternativas: [
           {
         texto: "isso é assustador",
-        afirmativa: "afirmação"
+        afirmativa: "afirmativa"
     },
     {
         texto: "isso é assustador",
@@ -102,11 +102,11 @@ const perguntas = [
         alternativas: [
           {
         texto: "isso é assustador",
-        afirmativa: "afirmação"
+        afirmativa: ""
     },
     {
         texto: "isso é assustador",
-        afirmativa: "afirmativa"
+        afirmativa: "Vc ja tentou emfrentar seu medo "
     }
             "Alternativa 1",
             "Alternativa 2"
